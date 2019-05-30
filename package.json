@@ -1,0 +1,22 @@
+{
+  "name": "vue-gradation",
+  "version": "0.0.1",
+  "description": "A vue.js component to create moveing gradation of background.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/53able/vue-gradation.git"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "author": "53able",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/53able/vue-gradation/issues"
+  },
+  "homepage": "https://github.com/53able/vue-gradation#readme"
+}
