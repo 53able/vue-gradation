@@ -1,6 +1,9 @@
 <template>
-  <div :style="{backgroundImage: color, animationDuration: durationMs}" class="vue-gradation">
-    <slot/>
+  <div
+    :style="{ backgroundImage: color, animationDuration: durationMs }"
+    class="vue-gradation"
+  >
+    <slot />
   </div>
 </template>
 <script>

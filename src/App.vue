@@ -1,8 +1,11 @@
 <template>
   <div id="app">
-    <gradation :duration="15" color="linear-gradient( 109.6deg, #FBE4E2 11.4%, #67A5DA 91.1% )">
-      <img alt="Vue logo" src="./assets/logo.png">
-      <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <gradation
+      :duration="15"
+      color="linear-gradient( 109.6deg, #FBE4E2 11.4%, #67A5DA 91.1% )"
+    >
+      <img alt="Vue logo" src="./assets/logo.png" />
+      <HelloWorld msg="Welcome to Your Vue.js App" />
     </gradation>
   </div>
 </template>
