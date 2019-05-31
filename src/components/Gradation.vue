@@ -11,7 +11,8 @@ export default {
   props: {
     color: {
       type: String,
-      required: true
+      required: false,
+      default: "linear-gradient( 109.6deg, #FBE4E2 11.4%, #67A5DA 91.1% )"
     },
     duration: {
       type: Number,
