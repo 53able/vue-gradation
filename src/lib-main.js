@@ -2,7 +2,7 @@ import Vue from 'vue';
 import { Gradation } from './components/Gradation.vue';
 
 // ...
-export default VueGradation = {
+const VueGradation = {
     install(Vue, options) {
         const components = {
             Gradation,　// <gradateion /> として使える
@@ -12,3 +12,5 @@ export default VueGradation = {
         }
     },
 }
+
+export default VueGradation
