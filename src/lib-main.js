@@ -1,10 +1,10 @@
-import { Gradation } from "./components/Gradation.vue";
+import VueGradation from "./components/Gradation.vue";
 
 // ...
-const VueGradation = {
+const Component = {
   install(Vue) {
     const components = {
-      Gradation // <gradateion /> として使える
+      VueGradation // <vue-gradateion /> として使える
     };
     for (const [name, c] of Object.entries(components)) {
       Vue.component(name, c);
@@ -12,4 +12,4 @@ const VueGradation = {
   }
 };
 
-export default VueGradation;
+export default Component;
