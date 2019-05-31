@@ -1,7 +1,7 @@
 import VueGradation from "./components/Gradation.vue";
 
 // ...
-const Component = {
+const Plugin = {
   install(Vue) {
     const components = {
       VueGradation // <vue-gradateion /> として使える
@@ -12,4 +12,4 @@ const Component = {
   }
 };
 
-export default Component;
+export default Plugin;
