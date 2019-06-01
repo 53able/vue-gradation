@@ -29,6 +29,8 @@ Vue.use(VueGradation)
 </template>
 ```
 
+> For `color`, See also the [Gradation Hunt](https://gradienthunt.com/).
+
 <!-- ## Project setup
 ```
 yarn install
